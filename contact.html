@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JayKeshav Website</title>
+    <link rel="stylesheet" href="style.css">
+   <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">           
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+<!-- font awesome 4 cdn pr hai 5 cdn pata nhi kya ho rah hai  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+    <!-- font awesome 6 tryila -->
+
+    <script src="https://kit.fontawesome.com/6e5d25e731.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <section class="sub-header">
+
+        <nav>
+            <a href="index.html"><img src="images/logo2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>          
+                <li><a href="">PROPERTIES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+         </div>
+         <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>
+            Contact Us
+        </h1>
+
+
+    </section>
+
+
+
+    <!-- contact us -->
+
+
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.5912156798863!2d72.80602001482764!3d19.430060586885677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7a964c059f293%3A0x87167c53949ab467!2sJay%20Keshav%20Property!5e0!3m2!1sen!2sin!4v1645720237378!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+    </section>
+
+
+    <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <span>
+                    <h5>03, Nakoda Heights, Bldg No.2, Yashwant Gaurav Complex</h5>
+                    <p>Nalasopara(W), Palghar</p>
+                    <p>Maharashtra, India</p>
+                </span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="contact-col">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                    <h5>+91 9702131867 | +91 8691847885</h5>
+                    <p>Monday to Sunday</p>
+                    <p>9:00 am to 9:15pm</p>
+                  </span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="contact-col">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                <span>
+                    <h5>jkpestates@gmail.com</h5>
+                    <p>Reach us through gmail by </p>
+                    <p>adding your querry here</p>
+                </span>
+            </div>
+      
+
+
+        <div class="contact-col">
+
+            <form action="formka.php" method="post">
+                <input type="text" name="name" placeholder="Enter Your Name " required>
+                <input type="email" name="email" placeholder="Enter Your Email Address " required>
+                <input type="text" name="subject" placeholder="Enter Your Subject " required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="visit-this-button red-btn">Send Message</button>
+            </form>
+
+
+        </div>
+    </div>
+    </section>
+
+
+
+
+
+
+
+
+        <!--Footer  -->
+
+<section class="footer">
+    <h4>JAY KESHAV PROPERTY</h4>
+    <p>Do check our social media platforms</p>
+
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram-square"></i>
+        <i class="fab fa-twitter-square"></i>
+    </div>
+
+    <p>Made with <i class="fa-regular fa-heart"></i> To Give You The Best Service Possible</p>
+
+</section>
+
+
+
+
+
+
+
+
+<!-- <!-javascript--> 
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
