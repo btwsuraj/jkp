@@ -1,7 +1,7 @@
 <?php
 $name= $_POST['name'];
 $visitor_email= $_POST['email'];
-$subject= $_POST['subect'];
+$subject= $_POST['subject'];
 $message= $_POST['message'];
 // web name daldena hai yaha pe
 $email_form = 'info@jkpestates.onrender.com';
@@ -15,7 +15,7 @@ $to = 'jkpestates@gmail.com';
 
 $headers = "From:$email_form \r\n ";
 
-$headers .= "Reply to: $visitor_email \r\n ";
+$headers .= "Reply-To: $visitor_email \r\n ";
 
 mail($to,$email_subject,$email_body,$headers);
 
