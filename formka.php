@@ -4,7 +4,7 @@ $visitor_email= $_POST['email'];
 $subject= $_POST['subect'];
 $message= $_POST['message'];
 // web name daldena hai yaha pe
-$email_form = 'info@jaykeshavproperty.com';
+$email_form = 'info@jkpestates.vercel.app';
 $email_subject = 'New Form Submission';
 $email_body = "User Name: $name.\n".
                 "User Email: $visitor_email.\n".
